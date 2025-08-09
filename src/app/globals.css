@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-50: #faf7f1;
+  --color-primary-100: #f5efe3;
+  --color-primary-200: #ead8b8;
+  --color-primary-300: #d9b88d;
+  --color-primary-400: #c99a6e;
+  --color-primary-500: #b87e52; /* цвет горелого сахара/кофе */
+  --color-primary-600: #965f3c;
+  --color-primary-700: #74472e;
+  --color-primary-800: #573426;
+  --color-primary-900: #3c2418;
+
+  --color-accent-400: #0f766e; /* бирюзовый как каспий/жаде */
+  --color-accent-600: #115e59;
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+:root {
+  --bg: #faf7f1;
+  --fg: theme(colors.stone.900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --bg: #faf7f1;
+    --fg: theme(colors.stone.900);
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+}
+
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+
+/* декоративные узоры для дагестанского акцента */
+.ornament { background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.06) 1px, transparent 0); background-size: 12px 12px; }
+
+/* Анимации для крутящихся лент */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 60s linear infinite;
+  will-change: transform;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 60s linear infinite;
+  will-change: transform;
+}
+
+/* Анимация для блоков */
+@keyframes bounce {
+  0% {
+    transform: translateY(-100px) scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-20px) scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Стили для слайдера громкости */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #92400e;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #92400e;
+  cursor: pointer;
+  border: none;
+}
+

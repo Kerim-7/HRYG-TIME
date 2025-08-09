@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "menu": "Меню",
+    "gallery": "Галерея",
+    "story": "История",
+    "contact": "Контакты"
+  },
+  "hero": {
+    "title": "HRYG TIME",
+    "subtitle": "Спешалти-кофе с душой Кавказа. Вдохновлено горами Дагестана и традициями гостеприимства.",
+    "viewMenu": "Посмотреть меню",
+    "bookTable": "Забронировать стол"
+  },
+  "menu": {
+    "title": "HRYG TIME",
+    "subtitle": "Меню кофейни с душой Кавказа",
+    "clickToView": "Нажмите для просмотра",
+    "clickToHide": "Нажмите чтобы скрыть",
+    "categories": {
+      "coffee": "Кофейные напитки",
+      "raf": "Раф",
+      "cappuccino": "Капучино",
+      "coldCoffee": "Холодное Кофе",
+      "cocoa": "Какао",
+      "smoothie": "Смузи",
+      "coffeeShots": "Кофейные шоты",
+      "cocktails": "Коктейли",
+      "tea": "Чай",
+      "lemonade": "Лимонады",
+      "fresh": "Фреши",
+      "mojito": "Мохито"
+    },
+    "items": {
+      "espresso": "Эспрессо",
+      "ristretto": "Ристретто",
+      "doppio": "Допио",
+      "lungo": "Лунго",
+      "latte": "Латте",
+      "filterCoffee": "Фильтр Кофе",
+      "americano": "Американо",
+      "flatWhite": "Флет - Уайт",
+      "vietnameseCoffee200": "Вьетнамское Кофе (200мл)",
+      "vietnameseCoffee300": "Вьетнамское Кофе (300мл)",
+      "alimCoffee": "Кофе от Алима",
+      "classicRaf": "Классический",
+      "caramelRaf": "Карамельный",
+      "lavenderRaf": "Лавандовый",
+      "bananaRaf": "Банановый",
+      "amarettoRaf": "Амаретто",
+      "coconutRaf": "Кокосовый",
+      "hazelnutRaf": "Фундуковый",
+      "halvaRaf": "Халвовый",
+      "flaxRaf": "Льняной",
+      "almondRaf": "Миндальный",
+      "classicCappuccino200": "Классический (200мл)",
+      "classicCappuccino300": "Классический (300мл)",
+      "bananaMilkCappuccino200": "На банановом молоке (200мл)",
+      "bananaMilkCappuccino300": "На банановом молоке (300мл)",
+      "coconutMilkCappuccino200": "На кокосовом молоке (200мл)",
+      "coconutMilkCappuccino300": "На кокосовом молоке (300мл)",
+      "almondMilkCappuccino200": "На миндальном молоке (200мл)",
+      "almondMilkCappuccino300": "На миндальном молоке (300мл)",
+      "iceFury": "Айс-Фьюри",
+      "iceLatte": "Айс Латте",
+      "espressoTonic": "Эспрессо - Тоник",
+      "bumble": "Бамбл",
+      "iceCoffee": "Айс - Кофе",
+      "classicGlace": "Гляссе Классический",
+      "chocolateGlace": "Шоколадный Гляссе",
+      "coldBrewClassic": "Колд-Брю Классический",
+      "coldBrewOrangePassion": "Колд-Брю Апельсин-Маракуйя",
+      "coldBrewPomegranate": "Колд-Брю Гранатовый",
+      "coldBrewCola": "Колд-Брю Кола",
+      "classicCocoa200": "Классический (200мл)",
+      "classicCocoa300": "Классический (300мл)",
+      "coconutMilkCocoa200": "На кокосовом молоке (200мл)",
+      "coconutMilkCocoa300": "На кокосовом молоке (300мл)",
+      "almondMilkCocoa200": "На миндальном молоке (200мл)",
+      "almondMilkCocoa300": "На миндальном молоке (300мл)",
+      "bananaMilkCocoa200": "На банановом молоке (200мл)",
+      "bananaMilkCocoa300": "На банановом молоке (300мл)",
+      "sorrelSmoothie": "Щавелевый",
+      "mangoSmoothie": "Манговый",
+      "coffeeShots": "Кофейные шоты",
+      "milkCocktail": "Молочный",
+      "chocolateBananaCocktail": "Шоколадно-банановый",
+      "dateBananaCocktail": "Финик - Банан",
+      "strawberryCocktail": "Клубничный",
+      "bananaStrawberryCocktail": "Банан - Клубника",
+      "chocolateCocktail": "Шоколадный",
+      "bananaCocktail": "Банановый",
+      "milkBananaCocktail": "Молочно-банановый",
+      "raspberryCocktail": "Малиновый",
+      "classicTea": "Классический",
+      "lemonGingerTea": "Лимон - Имбирь",
+      "earlGreyTea": "Эрл Грей",
+      "greenTea": "Зеленый Чай",
+      "seaBuckthornOrangeTea": "Облепиха - Апельсин",
+      "tiedTea": "Связанный Чай",
+      "berryTea": "Ягодный Чай",
+      "blueTea": "Синий Чай",
+      "authorTea": "Авторский",
+      "lezginTea": "Лезгинский",
+      "pomegranateTea": "Гранатовый",
+      "strawberryLemonade": "Клубничный",
+      "raspberryLemonade": "Малиновый",
+      "mangoLemonade": "Манговый",
+      "sorrelLemonade": "Щавелевый",
+      "seaBuckthornLemonade": "Облепиховый",
+      "appleFresh": "Яблочный",
+      "carrotFresh": "Морковный",
+      "orangeFresh": "Апельсиновый",
+      "grapefruitFresh": "Грейпфрут",
+      "pomegranateFresh": "Гранатовый",
+      "classicMojito": "Классический",
+      "mangoMojito": "Манговый",
+      "strawberryMojito": "Клубничный"
+    },
+    "instagram": {
+      "follow": "Следите за нами в Instagram",
+      "handle": "@HRYG.TIMECOFFEE"
+    }
+  },
+  "gallery": {
+    "title": "Галерея",
+    "subtitle": "Погрузитесь в атмосферу нашей кофейни",
+    "images": {
+      "nationalColoring": {
+        "title": "Национальный колорит",
+        "description": "Ковры и узоры, хранящие традиции"
+      },
+      "coffeeCorner": {
+        "title": "Кофейный уголок",
+        "description": "Место для уединения с любимым напитком"
+      },
+      "hearthWarmth": {
+        "title": "Тепло очага",
+        "description": "Кофе и мягкий свет камина для уютных вечеров"
+      },
+      "berryFreshness": {
+        "title": "Ягодная свежесть",
+        "description": "Лимонады, в которых вкус лета в каждом глотке"
+      },
+      "warmLight": {
+        "title": "Теплый свет",
+        "description": "Уют старинных вещей в лучах мягкого заката"
+      },
+      "sweetMorning": {
+        "title": "Сладкое утро",
+        "description": "Вафли, ягоды и ароматный капучино под открытым небом"
+      },
+      "coffeeView": {
+        "title": "Вид с чашкой кофе",
+        "description": "Идеальное место, чтобы насладиться вкусом и видом"
+      },
+      "windowView": {
+        "title": "Вид из окна",
+        "description": "Атмосфера уюта сквозь стекло в любое время года"
+      },
+      "mountainFresh": {
+        "title": "Горный фреш",
+        "description": "Свежесть цитрусов и прохлада горных вершин"
+      },
+      "barMagic": {
+        "title": "Барная магия",
+        "description": "Свет, дерево и ароматы, создающие настроение"
+      },
+      "coffeeToGo": {
+        "title": "Кофе с собой",
+        "description": "Для тех, кто берёт тепло в дорогу"
+      },
+      "mountainCity": {
+        "title": "Горный город",
+        "description": "Линии крыш и башен, ожившие в чернильных штрихах"
+      },
+      "villageTea": {
+        "title": "Чай по-деревенски",
+        "description": "Самовар и закат — традиция, согревающая сердце"
+      },
+      "coffeeWisdom": {
+        "title": "Кофейная мудрость",
+        "description": "Доска с надписью, которая всегда заставит улыбнуться"
+      },
+      "knowledgeCorner": {
+        "title": "Уголок знаний",
+        "description": "Книги и тишина — идеальное сочетание для вдохновения"
+      },
+      "aromaticBeans": {
+        "title": "Ароматные зёрна",
+        "description": "Источник энергии и вдохновения в каждой чашке"
+      }
+    }
+  },
+  "story": {
+    "title": "Наша история",
+    "paragraph1": "Мы родились среди гор и перенесли это чувство высоты в чашку кофе. Мы выбираем зёрна с честной ферментацией и бережной обжаркой, чтобы каждая чашка звучала как отголосок вершин — чистым, ярким и вдохновляющим.",
+    "paragraph2": "Наш кофе — это не просто напиток, а путешествие: от склонов, где растут лучшие сорта, до вашего утра, наполненного гармонией вкуса. Мы верим, что настоящий кофе рождается на стыке страсти к делу и уважения к природе. Поэтому в каждой чашке — не только сила гор, но и тепло рук, которые её создали."
+  },
+  "contact": {
+    "title": "Контакты",
+    "address": "Ахтынский район, село Хрюг Ежедневно 10:00–23:00.",
+    "phone": "Тел: +7 (993) 555-55-44",
+    "instagram": "Instagram: @hryg.timecoffee",
+    "formTitle": "Свяжитесь с нами",
+    "formSubtitle": "Оставьте сообщение по номеру телефона или в Instagram и мы свяжемся с вами"
+  },
+  "footer": {
+    "copyright": "© 2024 HRYG TIME"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English"
+  }
+}

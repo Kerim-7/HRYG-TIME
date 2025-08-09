@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "story": "Story",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "HRYG TIME",
+    "subtitle": "Specialty coffee with the soul of the Caucasus. Inspired by the mountains of Dagestan and traditions of hospitality.",
+    "viewMenu": "View Menu",
+    "bookTable": "Book a Table"
+  },
+  "menu": {
+    "title": "HRYG TIME",
+    "subtitle": "Coffee shop menu with the soul of the Caucasus",
+    "clickToView": "Click to view",
+    "clickToHide": "Click to hide",
+    "categories": {
+      "coffee": "Coffee Drinks",
+      "raf": "Raf",
+      "cappuccino": "Cappuccino",
+      "coldCoffee": "Cold Coffee",
+      "cocoa": "Cocoa",
+      "smoothie": "Smoothie",
+      "coffeeShots": "Coffee Shots",
+      "cocktails": "Cocktails",
+      "tea": "Tea",
+      "lemonade": "Lemonades",
+      "fresh": "Fresh Juices",
+      "mojito": "Mojito"
+    },
+    "items": {
+      "espresso": "Espresso",
+      "ristretto": "Ristretto",
+      "doppio": "Doppio",
+      "lungo": "Lungo",
+      "latte": "Latte",
+      "filterCoffee": "Filter Coffee",
+      "americano": "Americano",
+      "flatWhite": "Flat White",
+      "vietnameseCoffee200": "Vietnamese Coffee (200ml)",
+      "vietnameseCoffee300": "Vietnamese Coffee (300ml)",
+      "alimCoffee": "Alim's Coffee",
+      "classicRaf": "Classic",
+      "caramelRaf": "Caramel",
+      "lavenderRaf": "Lavender",
+      "bananaRaf": "Banana",
+      "amarettoRaf": "Amaretto",
+      "coconutRaf": "Coconut",
+      "hazelnutRaf": "Hazelnut",
+      "halvaRaf": "Halva",
+      "flaxRaf": "Flax",
+      "almondRaf": "Almond",
+      "classicCappuccino200": "Classic (200ml)",
+      "classicCappuccino300": "Classic (300ml)",
+      "bananaMilkCappuccino200": "With Banana Milk (200ml)",
+      "bananaMilkCappuccino300": "With Banana Milk (300ml)",
+      "coconutMilkCappuccino200": "With Coconut Milk (200ml)",
+      "coconutMilkCappuccino300": "With Coconut Milk (300ml)",
+      "almondMilkCappuccino200": "With Almond Milk (200ml)",
+      "almondMilkCappuccino300": "With Almond Milk (300ml)",
+      "iceFury": "Ice Fury",
+      "iceLatte": "Ice Latte",
+      "espressoTonic": "Espresso Tonic",
+      "bumble": "Bumble",
+      "iceCoffee": "Ice Coffee",
+      "classicGlace": "Classic Glace",
+      "chocolateGlace": "Chocolate Glace",
+      "coldBrewClassic": "Cold Brew Classic",
+      "coldBrewOrangePassion": "Cold Brew Orange-Passion",
+      "coldBrewPomegranate": "Cold Brew Pomegranate",
+      "coldBrewCola": "Cold Brew Cola",
+      "classicCocoa200": "Classic (200ml)",
+      "classicCocoa300": "Classic (300ml)",
+      "coconutMilkCocoa200": "With Coconut Milk (200ml)",
+      "coconutMilkCocoa300": "With Coconut Milk (300ml)",
+      "almondMilkCocoa200": "With Almond Milk (200ml)",
+      "almondMilkCocoa300": "With Almond Milk (300ml)",
+      "bananaMilkCocoa200": "With Banana Milk (200ml)",
+      "bananaMilkCocoa300": "With Banana Milk (300ml)",
+      "sorrelSmoothie": "Sorrel",
+      "mangoSmoothie": "Mango",
+      "coffeeShots": "Coffee Shots",
+      "milkCocktail": "Milk",
+      "chocolateBananaCocktail": "Chocolate-Banana",
+      "dateBananaCocktail": "Date-Banana",
+      "strawberryCocktail": "Strawberry",
+      "bananaStrawberryCocktail": "Banana-Strawberry",
+      "chocolateCocktail": "Chocolate",
+      "bananaCocktail": "Banana",
+      "milkBananaCocktail": "Milk-Banana",
+      "raspberryCocktail": "Raspberry",
+      "classicTea": "Classic",
+      "lemonGingerTea": "Lemon-Ginger",
+      "earlGreyTea": "Earl Grey",
+      "greenTea": "Green Tea",
+      "seaBuckthornOrangeTea": "Sea Buckthorn-Orange",
+      "tiedTea": "Tied Tea",
+      "berryTea": "Berry Tea",
+      "blueTea": "Blue Tea",
+      "authorTea": "Author's Tea",
+      "lezginTea": "Lezgin Tea",
+      "pomegranateTea": "Pomegranate",
+      "strawberryLemonade": "Strawberry",
+      "raspberryLemonade": "Raspberry",
+      "mangoLemonade": "Mango",
+      "sorrelLemonade": "Sorrel",
+      "seaBuckthornLemonade": "Sea Buckthorn",
+      "appleFresh": "Apple",
+      "carrotFresh": "Carrot",
+      "orangeFresh": "Orange",
+      "grapefruitFresh": "Grapefruit",
+      "pomegranateFresh": "Pomegranate",
+      "classicMojito": "Classic",
+      "mangoMojito": "Mango",
+      "strawberryMojito": "Strawberry"
+    },
+    "instagram": {
+      "follow": "Follow us on Instagram",
+      "handle": "@HRYG.TIMECOFFEE"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Immerse yourself in the atmosphere of our coffee shop",
+    "images": {
+      "nationalColoring": {
+        "title": "National Coloring",
+        "description": "Carpets and patterns preserving traditions"
+      },
+      "coffeeCorner": {
+        "title": "Coffee Corner",
+        "description": "A place for solitude with your favorite drink"
+      },
+      "hearthWarmth": {
+        "title": "Hearth Warmth",
+        "description": "Coffee and soft fireplace light for cozy evenings"
+      },
+      "berryFreshness": {
+        "title": "Berry Freshness",
+        "description": "Lemonades with the taste of summer in every sip"
+      },
+      "warmLight": {
+        "title": "Warm Light",
+        "description": "The comfort of antique things in the rays of soft sunset"
+      },
+      "sweetMorning": {
+        "title": "Sweet Morning",
+        "description": "Waffles, berries and aromatic cappuccino outdoors"
+      },
+      "coffeeView": {
+        "title": "View with Coffee",
+        "description": "Perfect place to enjoy taste and view"
+      },
+      "windowView": {
+        "title": "Window View",
+        "description": "Atmosphere of comfort through glass at any time of year"
+      },
+      "mountainFresh": {
+        "title": "Mountain Fresh",
+        "description": "Citrus freshness and mountain peak coolness"
+      },
+      "barMagic": {
+        "title": "Bar Magic",
+        "description": "Light, wood and aromas creating mood"
+      },
+      "coffeeToGo": {
+        "title": "Coffee To Go",
+        "description": "For those who take warmth on the road"
+      },
+      "mountainCity": {
+        "title": "Mountain City",
+        "description": "Roof lines and towers come alive in ink strokes"
+      },
+      "villageTea": {
+        "title": "Village Tea",
+        "description": "Samovar and sunset — tradition warming the heart"
+      },
+      "coffeeWisdom": {
+        "title": "Coffee Wisdom",
+        "description": "Board with inscription that will always make you smile"
+      },
+      "knowledgeCorner": {
+        "title": "Knowledge Corner",
+        "description": "Books and silence — perfect combination for inspiration"
+      },
+      "aromaticBeans": {
+        "title": "Aromatic Beans",
+        "description": "Source of energy and inspiration in every cup"
+      }
+    }
+  },
+  "story": {
+    "title": "Our Story",
+    "paragraph1": "We were born among the mountains and brought this sense of height into a cup of coffee. We choose beans with honest fermentation and careful roasting so that every cup sounds like an echo of peaks — pure, bright and inspiring.",
+    "paragraph2": "Our coffee is not just a drink, but a journey: from the slopes where the best varieties grow, to your morning filled with the harmony of taste. We believe that real coffee is born at the intersection of passion for work and respect for nature. Therefore, in every cup — not only the strength of the mountains, but also the warmth of the hands that created it."
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Akhtynsky district, Khryug village Daily 10:00–23:00.",
+    "phone": "Tel: +7 (993) 555-55-44",
+    "instagram": "Instagram: @hryg.timecoffee",
+    "formTitle": "Contact Us",
+    "formSubtitle": "Leave a message by phone or Instagram and we will contact you"
+  },
+  "footer": {
+    "copyright": "© 2024 HRYG TIME"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English"
+  }
+}
