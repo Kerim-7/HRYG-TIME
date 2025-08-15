@@ -131,6 +131,8 @@ export default function Home() {
            src="/carpet.jpg"
            alt="Дагестанская башня"
            fill
+           priority
+           sizes="(max-width: 768px) 100vw, 50vw"
            className="object-cover rounded-[calc(1.5rem-1px)]" 
            // 1.5rem = rounded-3xl (24px), 1px — толщина ring
            />
@@ -523,13 +525,15 @@ export default function Home() {
         {/* Крутящаяся лента - первая строка (первые 8 фото) */}
         <div className="relative overflow-hidden mb-6">
           <div className="flex animate-scroll-left">
-            {/* Создаем бесконечную ленту: [1,2,3,4,5,6,7,8, 1,2,3,4,5,6,7,8, 1,2,3,4,5,6,7,8, ...] */}
-            {Array.from({ length: 100 }, (_, i) => allImages[i % 8]).map((image, index) => (
+            {/* Создаем бесконечную ленту с меньшим количеством повторений */}
+            {Array.from({ length: 20 }, (_, i) => allImages[i % 8]).map((image, index) => (
               <div key={`first-${index}`} className="flex-shrink-0 w-80 h-60 mx-3 group relative overflow-hidden rounded-2xl">
                 <Image
                   src={image.src}
                   alt={image.title}
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 320px, 320px"
                   className="object-cover group-hover:scale-105 transition-all duration-1000 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -545,13 +549,15 @@ export default function Home() {
         {/* Крутящаяся лента - вторая строка (оставшиеся 8 фото) */}
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll-right">
-            {/* Создаем бесконечную ленту: [9,10,11,12,13,14,15,16, 9,10,11,12,13,14,15,16, 9,10,11,12,13,14,15,16, ...] */}
-            {Array.from({ length: 100 }, (_, i) => allImages[(i % 8) + 8]).map((image, index) => (
+            {/* Создаем бесконечную ленту с меньшим количеством повторений */}
+            {Array.from({ length: 20 }, (_, i) => allImages[(i % 8) + 8]).map((image, index) => (
               <div key={`second-${index}`} className="flex-shrink-0 w-80 h-60 mx-3 group relative overflow-hidden rounded-2xl">
                 <Image
                   src={image.src}
                   alt={image.title}
                   fill
+                  loading="lazy"
+                  sizes="(max-width: 768px) 320px, 320px"
                   className="object-cover group-hover:scale-105 transition-all duration-1000 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
