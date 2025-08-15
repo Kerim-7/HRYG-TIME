@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Кофейная чашка -->
+  <path d="M8 12h16c2.2 0 4 1.8 4 4v4c0 2.2-1.8 4-4 4H8c-2.2 0-4-1.8-4-4v-4c0-2.2 1.8-4 4-4z" fill="#8B4513"/>
+  <!-- Ручка чашки -->
+  <path d="M24 16c0 0-2 0-2 2s2 2 2 2" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <!-- Пар -->
+  <path d="M12 8c0-1.1 0.9-2 2-2s2 0.9 2 2" stroke="#A0522D" stroke-width="1.5" fill="none"/>
+  <path d="M18 8c0-1.1 0.9-2 2-2s2 0.9 2 2" stroke="#A0522D" stroke-width="1.5" fill="none"/>
+  <!-- Кофейные зерна -->
+  <ellipse cx="12" cy="18" rx="1" ry="0.8" fill="#654321"/>
+  <ellipse cx="20" cy="18" rx="1" ry="0.8" fill="#654321"/>
+  <ellipse cx="16" cy="20" rx="1" ry="0.8" fill="#654321"/>
+</svg>
