@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',  // Генерирует статический HTML
+  trailingSlash: true,  // Добавляет `/` в конце URL
   experimental: {
     optimizePackageImports: ["next/font", "react", "react-dom"],
   },
   images: {
+    unoptimized: true,  // Отключает оптимизацию изображений для статического экспорта
     remotePatterns: [
       {
         protocol: "https",

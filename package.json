@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && echo 'Static export created in out/ folder'",
+    "serve": "cd out && python3 -m http.server 8000"
   },
   "dependencies": {
     "react": "19.1.0",
